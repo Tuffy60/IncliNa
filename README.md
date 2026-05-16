@@ -1,6 +1,6 @@
-# Inclina
+# IncliNa
 
-Inclina is an Arduino project for the **Seeed Studio XIAO ESP32S3**.
+IncliNa is an Arduino project for the **Seeed Studio XIAO ESP32S3**.
 It combines a barometer, IMU, OLED display and a built in web dashboard to create a compact height and tilt monitor.
 
 ## Features
@@ -38,12 +38,13 @@ All I2C devices share the same bus:
 ## Project Structure
 
 ```text
-Inclina.ino           # includes, config values, class, setup/loop
-AWebContent.ino       # built in HTML for the dashboard
-BarometerAppCore.ino  # main app flow
-BarometerAppMath.ino  # math, filtering and reference helpers
-BarometerAppSensors.ino
-BarometerAppUi.ino
+IncliNa/
+  IncliNa.ino           # includes, config values, class, setup/loop
+  AWebContent.ino       # built in HTML for the dashboard
+  BarometerAppCore.ino  # main app flow
+  BarometerAppMath.ino  # math, filtering and reference helpers
+  BarometerAppSensors.ino
+  BarometerAppUi.ino
 ```
 
 ## Required Libraries
@@ -59,7 +60,7 @@ BarometerAppUi.ino
 1. Install Arduino IDE.
 2. Install the `ESP32 by Espressif Systems` board package.
 3. Install the required libraries listed above.
-4. Open `Inclina.ino`.
+4. Open `IncliNa/IncliNa.ino`.
 5. Select the board: `XIAO ESP32S3`.
 6. Select the correct COM port.
 7. Click `Verify`, then `Upload`.

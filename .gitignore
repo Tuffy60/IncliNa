@@ -1,0 +1,18 @@
+# Arduino / build output
+build/
+dist/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Arduino IDE / CLI
+.arduinoIDE/
+sketch.yaml
+*.ino.with_bootloader.bin
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
